@@ -3,3 +3,5 @@ __pycache__/
 simulation/logs/
 simulation/outputs/
 simulation/third_party/
+
+.qoder/
