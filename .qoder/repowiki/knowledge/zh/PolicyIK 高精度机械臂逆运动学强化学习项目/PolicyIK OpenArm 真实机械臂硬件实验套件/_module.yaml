@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: policyik_hw
+title: PolicyIK OpenArm 真实机械臂硬件实验套件
+scope:
+    - hardware/policyik_hw/
+    - hardware/scripts/
+    - hardware/config.yaml
+    - hardware/install.sh
+    - hardware/data/
+source_files: []
+depends_on: []
+related_to: []

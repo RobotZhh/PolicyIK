@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: policyik_hw/cli_scripts
+title: PolicyIK 硬件训练/评估/任务选择 CLI
+scope:
+    - hardware/policyik_hw/train.py
+    - hardware/policyik_hw/evaluate.py
+    - hardware/policyik_hw/select_tasks.py
+source_files: []
+depends_on: []
+related_to:
+    - path: policyik_hw/support_scripts

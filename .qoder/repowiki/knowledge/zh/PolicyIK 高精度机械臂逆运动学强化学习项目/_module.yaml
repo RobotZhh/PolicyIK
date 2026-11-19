@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: ""
+title: PolicyIK 高精度机械臂逆运动学强化学习项目
+scope:
+    - README.md
+    - .gitignore
+    - requirements/
+    - LICENSE
+source_files: []
+depends_on: []
+related_to: []

@@ -1,0 +1,9 @@
+schema_version: 1
+module_path: policyik_hw/envs
+title: OpenArm 6-DoF Pose Reaching Gymnasium 环境
+scope:
+    - hardware/policyik_hw/envs/
+source_files: []
+depends_on: []
+related_to:
+    - path: ros2_openarm_right

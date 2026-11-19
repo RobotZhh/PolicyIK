@@ -1,0 +1,9 @@
+schema_version: 1
+module_path: policyik_sim
+title: PolicyIK 仿真与训练管线
+scope:
+    - simulation/policyik_sim/
+    - simulation/scripts/
+source_files: []
+depends_on: []
+related_to: []

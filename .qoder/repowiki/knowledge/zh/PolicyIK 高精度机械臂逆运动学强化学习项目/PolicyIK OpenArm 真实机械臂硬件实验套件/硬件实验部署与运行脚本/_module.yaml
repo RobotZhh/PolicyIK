@@ -1,0 +1,10 @@
+schema_version: 1
+module_path: policyik_hw/shell_scripts_and_config
+title: 硬件实验部署与运行脚本
+scope:
+    - hardware/scripts/
+    - hardware/config.yaml
+    - hardware/install.sh
+source_files: []
+depends_on: []
+related_to: []

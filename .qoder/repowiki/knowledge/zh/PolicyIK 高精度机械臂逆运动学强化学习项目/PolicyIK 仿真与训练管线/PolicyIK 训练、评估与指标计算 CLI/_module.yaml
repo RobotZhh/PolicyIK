@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: policyik_sim/training_cli
+title: PolicyIK 训练、评估与指标计算 CLI
+scope:
+    - simulation/policyik_sim/train.py
+    - simulation/policyik_sim/evaluate.py
+    - simulation/policyik_sim/metrics.py
+source_files: []
+depends_on: []
+related_to:
+    - path: policyik_sim/support_utils
+    - path: policyik_sim/tasks_env

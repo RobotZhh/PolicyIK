@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: policyik_hw/support_scripts
+title: 硬件演示采集与训练后评估脚本
+scope:
+    - hardware/policyik_hw/collect_demos.py
+    - hardware/policyik_hw/watchdog_check.py
+    - hardware/policyik_hw/metrics.py
+source_files: []
+depends_on: []
+related_to:
+    - path: policyik_hw/cli_scripts
