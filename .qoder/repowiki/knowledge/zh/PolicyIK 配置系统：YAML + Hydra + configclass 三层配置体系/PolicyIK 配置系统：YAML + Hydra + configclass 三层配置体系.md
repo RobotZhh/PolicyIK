@@ -1,20 +1,10 @@
 ---
 kind: configuration_system
 name: PolicyIK 配置系统：YAML + Hydra + configclass 三层配置体系
+slug: configuration_system
 category: configuration_system
 scope:
     - '**'
-source_files:
-    - hardware/config.yaml
-    - hardware/policyik_hw/train.py
-    - hardware/policyik_hw/envs/pose_env.py
-    - hardware/policyik_hw/envs/reward.py
-    - hardware/policyik_hw/envs/workspace.py
-    - simulation/policyik_sim/tasks/env_cfg.py
-    - simulation/policyik_sim/tasks/agents/rl_games_ppo_cfg.yaml
-    - simulation/policyik_sim/train.py
-    - hardware/ros2/openarm_right_bringup/config/controllers.yaml
-    - hardware/ros2/openarm_right_bringup/config/control_gains.yaml
 ---
 
 ## 1. 总体方案

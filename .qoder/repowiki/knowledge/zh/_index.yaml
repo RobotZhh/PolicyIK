@@ -3,11 +3,65 @@ schema_version: 1
 locale: zh-CN
 branch: main
 nodes_managed: true
-exported_at: "2026-11-18T03:29:04Z"
+exported_at: "2026-11-19T02:13:25Z"
 modules:
     "":
-        dir_name: PolicyIK 高精度机械臂逆运动学强化学习项目
-        title: PolicyIK 高精度机械臂逆运动学强化学习项目
+        dir_name: PolicyIK
+        title: PolicyIK
+        scope: []
+        source_files: []
+        children:
+            - 0b72b45d-f84a-4a43-a5d4-f08afb3cdf8c
+            - fbc78a52-02d5-4a09-85c9-7b590b3c750d
+        depends_on: []
+        related_to: []
+    0b72b45d-f84a-4a43-a5d4-f08afb3cdf8c:
+        dir_name: PolicyIK 仿真数据后处理工具集
+        title: PolicyIK 仿真数据后处理工具集
+        scope:
+            - simulation/policyik_sim/corrected_goals.py
+            - simulation/policyik_sim/splits.py
+            - simulation/policyik_sim/average_checkpoints.py
+        source_files: []
+        children:
+            - 0b72b45d-f84a-4a43-a5d4-f08afb3cdf8c/84b7de3c-91fc-44a1-995c-ca19472e84d6
+        depends_on: []
+        related_to: []
+    0b72b45d-f84a-4a43-a5d4-f08afb3cdf8c/84b7de3c-91fc-44a1-995c-ca19472e84d6:
+        dir_name: PolicyIK 仿真与训练管线
+        title: PolicyIK 仿真与训练管线
+        scope:
+            - simulation/policyik_sim/
+            - simulation/scripts/
+        source_files: []
+        children:
+            - 0b72b45d-f84a-4a43-a5d4-f08afb3cdf8c/84b7de3c-91fc-44a1-995c-ca19472e84d6/581a586b-9dfd-44e8-8f24-ec326745d309
+            - 0b72b45d-f84a-4a43-a5d4-f08afb3cdf8c/84b7de3c-91fc-44a1-995c-ca19472e84d6/d22a7dd6-a812-4879-87ec-7dbbdf97d5af
+        depends_on: []
+        related_to: []
+    0b72b45d-f84a-4a43-a5d4-f08afb3cdf8c/84b7de3c-91fc-44a1-995c-ca19472e84d6/581a586b-9dfd-44e8-8f24-ec326745d309:
+        dir_name: PolicyIK 训练、评估与指标计算 CLI
+        title: PolicyIK 训练、评估与指标计算 CLI
+        scope:
+            - simulation/policyik_sim/train.py
+            - simulation/policyik_sim/evaluate.py
+            - simulation/policyik_sim/metrics.py
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    0b72b45d-f84a-4a43-a5d4-f08afb3cdf8c/84b7de3c-91fc-44a1-995c-ca19472e84d6/d22a7dd6-a812-4879-87ec-7dbbdf97d5af:
+        dir_name: PolicyIK 任务与环境配置
+        title: PolicyIK 任务与环境配置
+        scope:
+            - simulation/policyik_sim/tasks/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    fbc78a52-02d5-4a09-85c9-7b590b3c750d:
+        dir_name: PolicyIK 逆运动学研究与训练仓库
+        title: PolicyIK 逆运动学研究与训练仓库
         scope:
             - README.md
             - .gitignore
@@ -15,22 +69,12 @@ modules:
             - LICENSE
         source_files: []
         children:
-            - flash_rl
-            - policyik_hw
-            - policyik_sim
-            - ros2_openarm_right
+            - fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d
+            - fbc78a52-02d5-4a09-85c9-7b590b3c750d/5ef6b10a-4745-4d5d-9918-219fefd09f4e
+            - fbc78a52-02d5-4a09-85c9-7b590b3c750d/8ed01634-f915-4bd3-b87e-2d01e5f0e7be
         depends_on: []
         related_to: []
-    flash_rl:
-        dir_name: FlashSAC 强化学习训练框架
-        title: FlashSAC 强化学习训练框架
-        scope:
-            - hardware/flash_rl/
-        source_files: []
-        children: []
-        depends_on: []
-        related_to: []
-    policyik_hw:
+    fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d:
         dir_name: PolicyIK OpenArm 真实机械臂硬件实验套件
         title: PolicyIK OpenArm 真实机械臂硬件实验套件
         scope:
@@ -41,65 +85,16 @@ modules:
             - hardware/data/
         source_files: []
         children:
-            - policyik_hw/cli_scripts
-            - policyik_hw/data_assets
-            - policyik_hw/envs
-            - policyik_hw/rl
-            - policyik_hw/robot
-            - policyik_hw/shell_scripts_and_config
-            - policyik_hw/support_scripts
+            - fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/058b3453-aa7f-48fa-846e-d54545786846
+            - fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/3b2638c9-615d-440f-9079-751b69da0a5a
+            - fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/96ce5a15-a698-444d-8ac9-d1265cdf956c
+            - fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/a43d1612-51ea-4456-92b1-ad408fe9ae27
+            - fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/da54d211-e95b-4d38-9736-a4a2314b5952
+            - fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/dc27712d-7a0e-4d8b-b7d6-8987bd1873bc
+            - fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/f12315f6-3f36-4e0f-b5d8-0c41287ce31a
         depends_on: []
         related_to: []
-    policyik_hw/cli_scripts:
-        dir_name: PolicyIK 硬件训练_评估_任务选择 CLI
-        title: PolicyIK 硬件训练/评估/任务选择 CLI
-        scope:
-            - hardware/policyik_hw/train.py
-            - hardware/policyik_hw/evaluate.py
-            - hardware/policyik_hw/select_tasks.py
-        source_files: []
-        children: []
-        depends_on: []
-        related_to:
-            - path: policyik_hw/support_scripts
-    policyik_hw/data_assets:
-        dir_name: PolicyIK 硬件任务与演示数据集
-        title: PolicyIK 硬件任务与演示数据集
-        scope:
-            - hardware/data/
-        source_files: []
-        children: []
-        depends_on: []
-        related_to: []
-    policyik_hw/envs:
-        dir_name: OpenArm 6-DoF Pose Reaching Gymnasium 环境
-        title: OpenArm 6-DoF Pose Reaching Gymnasium 环境
-        scope:
-            - hardware/policyik_hw/envs/
-        source_files: []
-        children: []
-        depends_on: []
-        related_to:
-            - path: ros2_openarm_right
-    policyik_hw/rl:
-        dir_name: Pose HER 回放缓冲与在线学习钩子
-        title: Pose HER 回放缓冲与在线学习钩子
-        scope:
-            - hardware/policyik_hw/rl/
-        source_files: []
-        children: []
-        depends_on: []
-        related_to: []
-    policyik_hw/robot:
-        dir_name: OpenArm 机械臂硬件接口与运行安全
-        title: OpenArm 机械臂硬件接口与运行安全
-        scope:
-            - hardware/policyik_hw/robot/
-        source_files: []
-        children: []
-        depends_on: []
-        related_to: []
-    policyik_hw/shell_scripts_and_config:
+    fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/3b2638c9-615d-440f-9079-751b69da0a5a:
         dir_name: 硬件实验部署与运行脚本
         title: 硬件实验部署与运行脚本
         scope:
@@ -110,7 +105,45 @@ modules:
         children: []
         depends_on: []
         related_to: []
-    policyik_hw/support_scripts:
+    fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/058b3453-aa7f-48fa-846e-d54545786846:
+        dir_name: PolicyIK 硬件任务与演示数据集
+        title: PolicyIK 硬件任务与演示数据集
+        scope:
+            - hardware/data/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/96ce5a15-a698-444d-8ac9-d1265cdf956c:
+        dir_name: OpenArm 6-DoF Pose Reaching Gymnasium 环境
+        title: OpenArm 6-DoF Pose Reaching Gymnasium 环境
+        scope:
+            - hardware/policyik_hw/envs/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/a43d1612-51ea-4456-92b1-ad408fe9ae27:
+        dir_name: OpenArm 机械臂硬件接口与运行安全
+        title: OpenArm 机械臂硬件接口与运行安全
+        scope:
+            - hardware/policyik_hw/robot/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/da54d211-e95b-4d38-9736-a4a2314b5952:
+        dir_name: PolicyIK 硬件训练_评估_任务选择 CLI
+        title: PolicyIK 硬件训练/评估/任务选择 CLI
+        scope:
+            - hardware/policyik_hw/train.py
+            - hardware/policyik_hw/evaluate.py
+            - hardware/policyik_hw/select_tasks.py
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/dc27712d-7a0e-4d8b-b7d6-8987bd1873bc:
         dir_name: 硬件演示采集与训练后评估脚本
         title: 硬件演示采集与训练后评估脚本
         scope:
@@ -120,57 +153,17 @@ modules:
         source_files: []
         children: []
         depends_on: []
-        related_to:
-            - path: policyik_hw/cli_scripts
-    policyik_sim:
-        dir_name: PolicyIK 仿真与训练管线
-        title: PolicyIK 仿真与训练管线
+        related_to: []
+    fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/f12315f6-3f36-4e0f-b5d8-0c41287ce31a:
+        dir_name: Pose HER 回放缓冲与在线学习钩子
+        title: Pose HER 回放缓冲与在线学习钩子
         scope:
-            - simulation/policyik_sim/
-            - simulation/scripts/
+            - hardware/policyik_hw/rl/
         source_files: []
-        children:
-            - policyik_sim/support_utils
-            - policyik_sim/tasks_env
-            - policyik_sim/training_cli
+        children: []
         depends_on: []
         related_to: []
-    policyik_sim/support_utils:
-        dir_name: PolicyIK 仿真数据后处理工具集
-        title: PolicyIK 仿真数据后处理工具集
-        scope:
-            - simulation/policyik_sim/corrected_goals.py
-            - simulation/policyik_sim/splits.py
-            - simulation/policyik_sim/average_checkpoints.py
-        source_files: []
-        children: []
-        depends_on: []
-        related_to:
-            - path: policyik_sim/training_cli
-    policyik_sim/tasks_env:
-        dir_name: PolicyIK 任务与环境配置
-        title: PolicyIK 任务与环境配置
-        scope:
-            - simulation/policyik_sim/tasks/
-        source_files: []
-        children: []
-        depends_on: []
-        related_to:
-            - path: policyik_sim/training_cli
-    policyik_sim/training_cli:
-        dir_name: PolicyIK 训练、评估与指标计算 CLI
-        title: PolicyIK 训练、评估与指标计算 CLI
-        scope:
-            - simulation/policyik_sim/train.py
-            - simulation/policyik_sim/evaluate.py
-            - simulation/policyik_sim/metrics.py
-        source_files: []
-        children: []
-        depends_on: []
-        related_to:
-            - path: policyik_sim/support_utils
-            - path: policyik_sim/tasks_env
-    ros2_openarm_right:
+    fbc78a52-02d5-4a09-85c9-7b590b3c750d/5ef6b10a-4745-4d5d-9918-219fefd09f4e:
         dir_name: OpenArm 右臂 Bringup 包
         title: OpenArm 右臂 Bringup 包
         scope:
@@ -178,5 +171,13 @@ modules:
         source_files: []
         children: []
         depends_on: []
-        related_to:
-            - path: policyik_hw/envs
+        related_to: []
+    fbc78a52-02d5-4a09-85c9-7b590b3c750d/8ed01634-f915-4bd3-b87e-2d01e5f0e7be:
+        dir_name: FlashSAC 强化学习训练框架
+        title: FlashSAC 强化学习训练框架
+        scope:
+            - hardware/flash_rl/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []

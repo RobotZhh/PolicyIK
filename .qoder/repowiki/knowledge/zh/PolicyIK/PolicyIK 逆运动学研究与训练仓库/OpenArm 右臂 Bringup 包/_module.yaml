@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: fbc78a52-02d5-4a09-85c9-7b590b3c750d/5ef6b10a-4745-4d5d-9918-219fefd09f4e
+title: OpenArm 右臂 Bringup 包
+scope:
+    - hardware/ros2/openarm_right_bringup/
+source_files: []
+depends_on: []
+related_to: []

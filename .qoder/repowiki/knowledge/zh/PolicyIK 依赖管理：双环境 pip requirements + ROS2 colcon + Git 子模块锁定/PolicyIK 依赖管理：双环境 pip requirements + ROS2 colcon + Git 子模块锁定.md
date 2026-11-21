@@ -1,15 +1,10 @@
 ---
 kind: dependency_management
 name: PolicyIK 依赖管理：双环境 pip requirements + ROS2 colcon + Git 子模块锁定
+slug: dependency_management
 category: dependency_management
 scope:
     - '**'
-source_files:
-    - requirements/hardware.txt
-    - requirements/simulation.txt
-    - hardware/install.sh
-    - simulation/install.sh
-    - hardware/ros2/openarm_right_bringup/package.xml
 ---
 
 ## 1. 使用的系统/方法

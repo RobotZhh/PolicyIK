@@ -1,8 +1,0 @@
-schema_version: 1
-module_path: policyik_hw/data_assets
-title: PolicyIK 硬件任务与演示数据集
-scope:
-    - hardware/data/
-source_files: []
-depends_on: []
-related_to: []

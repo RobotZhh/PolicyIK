@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/a43d1612-51ea-4456-92b1-ad408fe9ae27
+title: OpenArm 机械臂硬件接口与运行安全
+scope:
+    - hardware/policyik_hw/robot/
+source_files: []
+depends_on: []
+related_to: []

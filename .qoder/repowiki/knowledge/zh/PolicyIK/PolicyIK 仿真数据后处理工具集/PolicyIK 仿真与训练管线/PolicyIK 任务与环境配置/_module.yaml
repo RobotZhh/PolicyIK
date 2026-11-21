@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: 0b72b45d-f84a-4a43-a5d4-f08afb3cdf8c/84b7de3c-91fc-44a1-995c-ca19472e84d6/d22a7dd6-a812-4879-87ec-7dbbdf97d5af
+title: PolicyIK 任务与环境配置
+scope:
+    - simulation/policyik_sim/tasks/
+source_files: []
+depends_on: []
+related_to: []

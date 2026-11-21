@@ -1,14 +1,10 @@
 ---
 kind: logging_system
 name: PolicyIK 日志系统：基于 RunLogger 的 JSONL 指标与 print 控制台输出
+slug: logging_system
 category: logging_system
 scope:
     - '**'
-source_files:
-    - hardware/policyik_hw/train.py
-    - hardware/policyik_hw/config.yaml
-    - simulation/policyik_sim/train.py
-    - hardware/policyik_hw/collect_demos.py
 ---
 
 ## 1. 使用的系统与框架

@@ -1,22 +1,10 @@
 ---
 kind: build_system
 name: PolicyIK 构建与部署脚本体系：硬件/仿真双管线安装、训练与评估入口
+slug: build_system
 category: build_system
 scope:
     - '**'
-source_files:
-    - hardware/install.sh
-    - simulation/install.sh
-    - requirements/hardware.txt
-    - requirements/simulation.txt
-    - hardware/scripts/train.sh
-    - hardware/scripts/collect_demos.sh
-    - hardware/scripts/evaluate.sh
-    - hardware/scripts/train_watchdog.sh
-    - simulation/scripts/train.sh
-    - simulation/scripts/evaluate.sh
-    - hardware/ros2/openarm_right_bringup/CMakeLists.txt
-    - hardware/ros2/openarm_right_bringup/package.xml
 ---
 
 ## 1. 总体方案

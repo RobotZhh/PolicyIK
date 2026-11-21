@@ -1,9 +1,0 @@
-schema_version: 1
-module_path: policyik_sim/tasks_env
-title: PolicyIK 任务与环境配置
-scope:
-    - simulation/policyik_sim/tasks/
-source_files: []
-depends_on: []
-related_to:
-    - path: policyik_sim/training_cli

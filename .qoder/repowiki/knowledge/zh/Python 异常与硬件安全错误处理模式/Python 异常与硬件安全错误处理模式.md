@@ -1,18 +1,10 @@
 ---
 kind: error_handling
 name: Python 异常与硬件安全错误处理模式
+slug: error_handling
 category: error_handling
 scope:
     - '**'
-source_files:
-    - hardware/policyik_hw/robot/ros_io.py
-    - hardware/policyik_hw/robot/motor_health.py
-    - hardware/policyik_hw/collect_demos.py
-    - hardware/policyik_hw/evaluate.py
-    - hardware/policyik_hw/envs/reward.py
-    - hardware/policyik_hw/rl/demos.py
-    - hardware/flash_rl/agents/utils/network.py
-    - hardware/flash_rl/buffers/torch_buffer.py
 ---
 
 ## 总体方式
