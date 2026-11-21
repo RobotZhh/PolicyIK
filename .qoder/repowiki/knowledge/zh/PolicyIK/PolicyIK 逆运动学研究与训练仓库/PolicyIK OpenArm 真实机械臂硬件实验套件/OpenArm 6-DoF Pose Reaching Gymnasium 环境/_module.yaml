@@ -1,8 +1,0 @@
-schema_version: 1
-module_path: fbc78a52-02d5-4a09-85c9-7b590b3c750d/02a24803-dce1-42be-804d-80540cd2013d/96ce5a15-a698-444d-8ac9-d1265cdf956c
-title: OpenArm 6-DoF Pose Reaching Gymnasium 环境
-scope:
-    - hardware/policyik_hw/envs/
-source_files: []
-depends_on: []
-related_to: []
